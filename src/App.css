@@ -38,3 +38,25 @@ ul {
 .car-paper {
   padding: 50px;
 }
+
+.car-info{
+  display: flex;
+  justify-content: center;
+}
+
+.card-info {
+  width: 45vw;
+  margin: 25px;
+}
+
+.card-info div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car-card p{
+  background-color: gray;
+  padding: 10px;
+  border-radius: 20px;
+}
+
