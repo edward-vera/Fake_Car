@@ -1,3 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 50%;
+  gap: 15px
+}
+
 .card-container {
   display: flex;
   justify-content: space-between;
@@ -31,6 +43,10 @@ ul {
   margin: auto 20px;
 }
 
+.nav-list-item:hover {
+  cursor: pointer;
+}
+
 .car-container {
   margin: 50px;
 }
@@ -38,25 +54,3 @@ ul {
 .car-paper {
   padding: 50px;
 }
-
-.car-info{
-  display: flex;
-  justify-content: center;
-}
-
-.card-info {
-  width: 30vw;
-  margin: 25px;
-}
-
-.card-info div{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.car-card ul{
-  background-color: rgb(198, 198, 198);
-  padding: 10px;
-  border-radius: 20px;
-}
-

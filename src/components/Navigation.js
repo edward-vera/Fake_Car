@@ -22,6 +22,10 @@ const Navigation = () => {
                         {/* Add Link here */}
                         <Link to="/about">About</Link>
                     </li>
+                    <li className="nav-list-item">
+                        {/* Add Link here */}
+                        <Link to="/login">Login</Link>
+                    </li>
                 </ul>
             </Toolbar>
         </AppBar>

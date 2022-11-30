@@ -15,13 +15,13 @@ const Car = (props) => {
 
     return (
       <div className='car-info'>
-          <Container>
-            <Paper>
+          <Container className='car-container'>
+            <Paper className='car-paper'>
                 <h2>{car.Name}</h2>
                 {/* map through the array and use the Chip
                     component to show all the car's data*/}
                 {Object.keys(car).map((key) => {
-                    return <Chip label={`${key}: ${car[key]}`}/>
+                    return <Chip className='car-chip' label={`${key}: ${car[key]}`}/>
                 })
                 }
             </Paper>
